@@ -1,0 +1,143 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0",
+  "schemes" : [
+    {
+      "buttons" : {
+        "mappings" : [
+          {
+            "action" : "missionControl.spaceRight",
+            "shift" : false,
+            "button" : 3,
+            "option" : false,
+            "control" : false,
+            "command" : false
+          },
+          {
+            "button" : 4,
+            "command" : false,
+            "control" : false,
+            "shift" : false,
+            "action" : "missionControl.spaceLeft",
+            "option" : false
+          }
+        ]
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "alterOrientation"
+            }
+          }
+        },
+        "acceleration" : {
+          "vertical" : 2.19
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "distance" : {
+          "vertical" : "auto"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true,
+        "acceleration" : 1
+      },
+      "if" : {
+        "device" : {
+          "productName" : "MCHOSE A5 4K 2.4G",
+          "vendorID" : "0x3554",
+          "productID" : "0xf553",
+          "category" : "mouse"
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.apple.finder",
+        "device" : {
+          "productName" : "MCHOSE A5 4K 2.4G",
+          "category" : "mouse",
+          "vendorID" : "0x3554",
+          "productID" : "0xf553"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 2.19
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0x281",
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "category" : "trackpad",
+          "vendorID" : "0x5ac"
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "alterOrientation"
+            }
+          }
+        }
+      },
+      "pointer" : {
+        "acceleration" : 1,
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x3554",
+          "productName" : "MCHOSE A5 5.0",
+          "productID" : "0xf533",
+          "serialNumber" : "00000001",
+          "category" : "mouse"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productName" : "MCHOSE A5",
+          "vendorID" : "0x3554",
+          "productID" : "0xf552",
+          "category" : "mouse"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true,
+        "acceleration" : 1
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "reverse" : {
+          "vertical" : true
+        }
+      }
+    }
+  ]
+}

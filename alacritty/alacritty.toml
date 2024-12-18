@@ -1,0 +1,20 @@
+
+[font]
+size = 13.0
+
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 0.85
+
+[window.padding]
+x = 18
+y = 16
+
+[general]
+live_config_reload = true
